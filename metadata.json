@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos6aun",
+    "Slug": "rxn-fingerprint",
+    "Status": "In progress",
+    "Title": "RXNFP - chemical reaction fingerprints",
+    "Description": "Predicts and  shows fingerprints for chemical reactions",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Fingerprint",
+        "Chemical Reactions Maps"
+    ],
+    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/60c753a0bdbb89acf8a3a4b5",
+    "Source Code": "https://github.com/rxn4chemistry/rxnfp/tree/master/",
+    "License": "MIT"
 }
