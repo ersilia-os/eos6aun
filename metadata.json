@@ -4,17 +4,23 @@
     "Status": "In progress",
     "Title": "RXNFP - chemical reaction fingerprints",
     "Description": "Predicts and  shows fingerprints for chemical reactions",
-    "Mode": "",
-    "Task": [],
-    "Input": [],
-    "Input Shape": "",
-    "Output": [],
-    "Output Type": [],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Mode": "Pretrained",
+    "Input": [
+        "Compound"
+    ],
+    "Input Shape": "Single",
+    "Task": [
+        "Generative"
+    ],
+    "Output": [
+        "Fingerprint"
+    ],
+    "Output Type": [
+        "Float"
+    ],
+    "Interpretation": "This model receives smiles as input and returns as output the fingerprint scores for each smiles,the fingerprint scores are used to give . ",
     "Tag": [
         "Fingerprint",
-        "Chemical Reactions Maps"
     ],
     "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/60c753a0bdbb89acf8a3a4b5",
     "Source Code": "https://github.com/rxn4chemistry/rxnfp/tree/master/",
