@@ -3,26 +3,29 @@
     "Slug": "rxn-fingerprint",
     "Status": "In progress",
     "Title": "RXNFP - chemical reaction fingerprints",
-    "Description": "Predicts and  shows fingerprints for chemical reactions",
+    "Description": "RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.",
     "Mode": "Pretrained",
     "Input": [
         "Compound"
     ],
     "Input Shape": "Single",
     "Task": [
-        "Generative"
+        "Representation"
     ],
     "Output": [
-        "Fingerprint"
+        "Descriptor"
     ],
     "Output Type": [
-        "String"
+        "Float"
     ],
-    "Interpretation": "This model receives smiles as input and returns as output the fingerprint scores for each smiles,the fingerprint scores are used to give . "
+    "Output Shape": "Matrix",
+    "Interpretation": "Fingerprint of the reaction."
     ,"Tag": [
-        "Fingerprint"
+        "Fingerprint",
+        "Embedding",
+        "Chemical synthesis"
     ],
-    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/60c753a0bdbb89acf8a3a4b5",
+    "Publication": "https://www.nature.com/articles/s42256-020-00284-w",
     "Source Code": "https://github.com/rxn4chemistry/rxnfp/tree/master/",
     "License": "MIT"
 }
