@@ -19,13 +19,18 @@
         "Float"
     ],
     "Output Shape": "Matrix",
-    "Interpretation": "Fingerprint of the reaction."
-    ,"Tag": [
+    "Interpretation": "Fingerprint of the reaction.",
+    "Tag": [
         "Fingerprint",
         "Embedding",
         "Chemical synthesis"
     ],
     "Publication": "https://www.nature.com/articles/s42256-020-00284-w",
     "Source Code": "https://github.com/rxn4chemistry/rxnfp/tree/master/",
-    "License": "MIT"
+    "License": "MIT",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6aun",
+    "Docker Architecture": [
+        "AMD64"
+    ]
 }

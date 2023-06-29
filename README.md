@@ -23,6 +23,11 @@ RXNFP uses a pre-trained BERT Language Model to transform a reaction represented
 * [Source Code](https://github.com/rxn4chemistry/rxnfp/tree/master/)
 * Ersilia contributor: [samuelmaina](https://github.com/samuelmaina)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos6aun)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos6aun) (AMD64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://www.nature.com/articles/s42256-020-00284-w) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
