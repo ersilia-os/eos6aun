@@ -1,11 +1,7 @@
-
-
 # imports
 import os
 import csv
 import sys
-
-
 
 from rxnfp.transformer_fingerprints import (
     RXNBERTFingerprintGenerator, get_default_model_and_tokenizer, generate_fingerprints
@@ -26,8 +22,6 @@ def my_model(smiles_list):
     fp = rxnfp_generator.convert_batch(smiles_list)
     return fp
 
-
-
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
     reader = csv.reader(f)
@@ -37,7 +31,13 @@ with open(input_file, "r") as f:
 # run model
 outputs = my_model(smiles_list)
 
+# run model
+outputs = my_model(smiles_list)
 
+#check input and output have the same lenght
+input_len = len(smiles_list)
+output_len = len(outputs)
+assert input_len == output_len
 
 
 # write output in a .csv file
