@@ -1,7 +1,7 @@
 {
     "Identifier": "eos6aun",
     "Slug": "rxn-fingerprint",
-    "Status": "In progress",
+    "Status": "Ready",
     "Title": "RXNFP - chemical reaction fingerprints",
     "Description": "RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.",
     "Mode": "Pretrained",
