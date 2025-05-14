@@ -50,7 +50,12 @@ _10 of 256 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6225`
+- **Image Size (Mb):** `5995.39`
 
+**Computational Performance (seconds):**
+- 10 inputs: `37.24`
+- 100 inputs: `38.72`
+- 10000 inputs: `1159.48`
 
 ### References
 - **Source Code**: [https://github.com/rxn4chemistry/rxnfp/tree/master/](https://github.com/rxn4chemistry/rxnfp/tree/master/)
