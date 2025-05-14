@@ -3,21 +3,18 @@
     "Slug": "rxn-fingerprint",
     "Status": "Ready",
     "Title": "RXNFP - chemical reaction fingerprints",
-    "Description": "RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.\n",
+    "Description": "RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Descriptor"
     ],
@@ -29,19 +26,22 @@
         "Embedding",
         "Chemical synthesis"
     ],
-    "Publication": "https://www.nature.com/articles/s42256-020-00284-w",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2021,
+    "Publication": "https://www.nature.com/articles/s42256-020-00284-w",
     "Source Code": "https://github.com/rxn4chemistry/rxnfp/tree/master/",
     "License": "MIT",
     "Contributor": "samuelmaina",
     "Incorporation Date": "2023-03-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6aun",
     "Docker Architecture": [
         "AMD64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip",
-    "Deployment": [
-        "Local"
     ]
 }
