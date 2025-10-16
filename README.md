@@ -29,16 +29,16 @@ This model was incorporated on 2023-03-28.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| feature_000 | string |  | Feature 0 of the chemical reaction fingerprint RXNFP |
-| feature_001 | string |  | Feature 1 of the chemical reaction fingerprint RXNFP |
-| feature_002 | string |  | Feature 2 of the chemical reaction fingerprint RXNFP |
-| feature_003 | string |  | Feature 3 of the chemical reaction fingerprint RXNFP |
-| feature_004 | string |  | Feature 4 of the chemical reaction fingerprint RXNFP |
-| feature_005 | string |  | Feature 5 of the chemical reaction fingerprint RXNFP |
-| feature_006 | string |  | Feature 6 of the chemical reaction fingerprint RXNFP |
-| feature_007 | string |  | Feature 7 of the chemical reaction fingerprint RXNFP |
-| feature_008 | string |  | Feature 8 of the chemical reaction fingerprint RXNFP |
-| feature_009 | string |  | Feature 9 of the chemical reaction fingerprint RXNFP |
+| feature_000 | float |  | Feature 0 of the chemical reaction fingerprint RXNFP |
+| feature_001 | float |  | Feature 1 of the chemical reaction fingerprint RXNFP |
+| feature_002 | float |  | Feature 2 of the chemical reaction fingerprint RXNFP |
+| feature_003 | float |  | Feature 3 of the chemical reaction fingerprint RXNFP |
+| feature_004 | float |  | Feature 4 of the chemical reaction fingerprint RXNFP |
+| feature_005 | float |  | Feature 5 of the chemical reaction fingerprint RXNFP |
+| feature_006 | float |  | Feature 6 of the chemical reaction fingerprint RXNFP |
+| feature_007 | float |  | Feature 7 of the chemical reaction fingerprint RXNFP |
+| feature_008 | float |  | Feature 8 of the chemical reaction fingerprint RXNFP |
+| feature_009 | float |  | Feature 9 of the chemical reaction fingerprint RXNFP |
 
 _10 of 256 columns are shown_
 ### Source and Deployment
