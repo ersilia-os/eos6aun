@@ -39,15 +39,17 @@
     "License": "MIT",
     "Contributor": "samuelmaina",
     "Incorporation Date": "2023-03-28",
+    "Last Packaging Date": "2025-10-16",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6aun",
     "Docker Architecture": "AMD64",
     "Model Size": 1.0,
     "Environment Size": 6130.0,
-    "Image Size": 5995.39,
-    "Computational Performance 1": 37.24,
-    "Computational Performance 2": 27.88,
-    "Computational Performance 3": 38.72,
-    "Computational Performance 4": 234.27,
-    "Computational Performance 5": 1159.48
+    "Image Size": 6061.64,
+    "Computational Performance 1": 29.64,
+    "Computational Performance 2": 19.69,
+    "Computational Performance 3": 23.27,
+    "Computational Performance 4": 79.51,
+    "Computational Performance 5": 345.67
 }
