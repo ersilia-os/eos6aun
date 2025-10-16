@@ -2,8 +2,7 @@
 
 RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.
 
-This model was incorporated on 2023-03-28.
-
+This model was incorporated on 2023-03-28.Last packaged on 2025-10-16.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 256 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6130`
-- **Image Size (Mb):** `5995.39`
+- **Image Size (Mb):** `6061.64`
 
 **Computational Performance (seconds):**
-- 10 inputs: `37.24`
-- 100 inputs: `38.72`
-- 10000 inputs: `1159.48`
+- 10 inputs: `29.64`
+- 100 inputs: `23.27`
+- 10000 inputs: `345.67`
 
 ### References
 - **Source Code**: [https://github.com/rxn4chemistry/rxnfp/tree/master/](https://github.com/rxn4chemistry/rxnfp/tree/master/)
