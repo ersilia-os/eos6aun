@@ -4,6 +4,7 @@ RXNFP uses a pre-trained BERT Language Model to transform a reaction represented
 
 This model was incorporated on 2023-03-28.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos6aun`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-03-28.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Fingerprint`, `Embedding`, `Chemical synthesis`
 
 ### Input
