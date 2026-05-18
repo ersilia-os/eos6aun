@@ -59,7 +59,7 @@ _10 of 256 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/rxn4chemistry/rxnfp/tree/master/](https://github.com/rxn4chemistry/rxnfp/tree/master/)
-- **Publication**: [https://www.nature.com/articles/s42256-020-00284-w](https://www.nature.com/articles/s42256-020-00284-w)
+- **Publication**: [https://doi.org/10.1038/s42256-020-00284-w](https://doi.org/10.1038/s42256-020-00284-w)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
 - **Ersilia Contributor:** [samuelmaina](https://github.com/samuelmaina)
