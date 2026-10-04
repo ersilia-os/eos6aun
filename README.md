@@ -1,6 +1,6 @@
 # RXNFP - chemical reaction fingerprints
 
-RXNFP uses a pre-trained BERT Language Model to transform a reaction represented as smiles into a fingerprint amenable for downstream applications. The authors show how the RXN-fps can be used to identify nearest neighbors on reaction datasets, or map the reaction space without knowing the reaction centers.
+Turns a reaction, rather than a single molecule, into 256 features by applying a transformer trained on reaction SMILES. Schwaller and colleagues found that a model trained to classify reactions learns an internal representation in which mechanistically related transformations cluster together, producing a map of reaction space without any hand-assigned classes. The fingerprint describes the transformation as a whole, so it requires a full reaction string and cannot be computed from a product alone.
 
 This model was incorporated on 2023-03-28.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-03-28.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `256`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Fingerprint of the reaction.
+- **Interpretation:** 256 features encoding a chemical reaction from an attention-based reaction transformer.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
