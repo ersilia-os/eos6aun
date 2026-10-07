@@ -3,7 +3,7 @@
     "Slug": "rxn-fingerprint",
     "Status": "Ready",
     "Title": "RXNFP - chemical reaction fingerprints",
-    "Description": "Turns a reaction, rather than a single molecule, into 256 features by applying a transformer trained on reaction SMILES. Schwaller and colleagues found that a model trained to classify reactions learns an internal representation in which mechanistically related transformations cluster together, producing a map of reaction space without any hand-assigned classes. The fingerprint describes the transformation as a whole, so it requires a full reaction string and cannot be computed from a product alone.",
+    "Description": "Encodes a whole chemical reaction, rather than a single molecule, as 256 features read from a BERT model trained on reaction SMILES. Schwaller and colleagues fine-tuned it to assign reaction classes, reaching 98.9% accuracy, and found that mechanistically related transformations end up close together in the learned space. This lets chemists retrieve nearest-neighbour reactions and map reaction space without annotating reaction centres or separating reactants from reagents. A complete reaction string is required, so the fingerprint cannot be computed from a product alone.",
     "Deployment": [
         "Local"
     ],
