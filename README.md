@@ -2,7 +2,7 @@
 
 Encodes a whole chemical reaction, rather than a single molecule, as 256 features read from a BERT model trained on reaction SMILES. Schwaller and colleagues fine-tuned it to assign reaction classes, reaching 98.9% accuracy, and found that mechanistically related transformations end up close together in the learned space. This lets chemists retrieve nearest-neighbour reactions and map reaction space without annotating reaction centres or separating reactants from reagents. A complete reaction string is required, so the fingerprint cannot be computed from a product alone.
 
-This model was incorporated on 2023-03-28.Last packaged on 2026-08-31.
+This model was incorporated on 2023-03-28.Last packaged on 2026-10-13.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 256 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6112`
-- **Image Size (Mb):** `6077.51`
+- **Image Size (Mb):** `6095.72`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.4`
-- 100 inputs: `21.39`
-- 10000 inputs: `352.76`
+- 10 inputs: `25.73`
+- 100 inputs: `18.03`
+- 10000 inputs: `262.22`
 
 ### References
 - **Source Code**: [https://github.com/rxn4chemistry/rxnfp/tree/master/](https://github.com/rxn4chemistry/rxnfp/tree/master/)
