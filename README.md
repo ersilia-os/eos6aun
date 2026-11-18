@@ -2,7 +2,8 @@
 
 Encodes a whole chemical reaction, rather than a single molecule, as 256 features read from a BERT model trained on reaction SMILES. Schwaller and colleagues fine-tuned it to assign reaction classes, reaching 98.9% accuracy, and found that mechanistically related transformations end up close together in the learned space. This lets chemists retrieve nearest-neighbour reactions and map reaction space without annotating reaction centres or separating reactants from reagents. A complete reaction string is required, so the fingerprint cannot be computed from a product alone.
 
-This model was incorporated on 2023-03-28.Last packaged on 2026-10-13.
+This model was incorporated on 2023-03-28.
+Last packaged on 2026-10-13.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 256 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6aun](https://hub.docker.com/r/ersiliaos/eos6aun)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6aun.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos6aun_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos6aun_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
